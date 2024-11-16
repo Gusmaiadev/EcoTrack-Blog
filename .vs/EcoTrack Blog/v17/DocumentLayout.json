@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\users\\gustavo\\source\\repos\\ecotrack blog\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\users\\gustavo\\source\\repos\\ecotrack blog\\configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\users\\gustavo\\source\\repos\\ecotrack blog\\configuration\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:configuration\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\users\\gustavo\\source\\repos\\ecotrack blog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Services\\AuthorService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthorService.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Services\\AuthorService.cs",
+              "RelativeToolTip": "Services\\AuthorService.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAQwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:03:39.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAuwLEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T18:51:13.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjectionConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Configuration\\DependencyInjectionConfig.cs",
+              "RelativeDocumentMoniker": "Configuration\\DependencyInjectionConfig.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Configuration\\DependencyInjectionConfig.cs",
+              "RelativeToolTip": "Configuration\\DependencyInjectionConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T18:49:58.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Configuration\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Configuration\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Configuration\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Configuration\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T18:48:45.548Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

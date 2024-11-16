@@ -1,0 +1,81 @@
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\appsettings.json
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\EcoTrack Blog.staticwebassets.runtime.json
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\EcoTrack Blog.exe
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\EcoTrack Blog.deps.json
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\EcoTrack Blog.runtimeconfig.json
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\EcoTrack Blog.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\EcoTrack Blog.pdb
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Oracle.EntityFrameworkCore.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\System.DirectoryServices.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack Blog.csproj.AssemblyReference.cache
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack Blog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack Blog.AssemblyInfoInputs.cache
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack Blog.AssemblyInfo.cs
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack Blog.csproj.CoreCompileInputs.cache
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack Blog.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack Blog.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack Blog.RazorAssemblyInfo.cache
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack Blog.RazorAssemblyInfo.cs
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\staticwebassets\msbuild.EcoTrack Blog.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\staticwebassets\msbuild.build.EcoTrack Blog.props
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EcoTrack Blog.props
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EcoTrack Blog.props
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\scopedcss\bundle\EcoTrack Blog.styles.css
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\scopedcss\projectbundle\EcoTrack Blog.bundle.scp.css
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack.2119A969.Up2Date
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack Blog.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\refint\EcoTrack Blog.dll
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack Blog.pdb
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\EcoTrack Blog.genruntimeconfig.cache
+C:\Users\Gustavo\source\repos\EcoTrack Blog\obj\Debug\net8.0\ref\EcoTrack Blog.dll
