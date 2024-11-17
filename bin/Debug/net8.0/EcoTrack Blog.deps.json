@@ -13,6 +13,8 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.16",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.16",
           "Microsoft.EntityFrameworkCore": "7.0.16",
+          "Microsoft.EntityFrameworkCore.Design": "7.0.16",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.16",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.16",
           "Oracle.EntityFrameworkCore": "7.21.8",
           "Swashbuckle.AspNetCore": "6.5.0",

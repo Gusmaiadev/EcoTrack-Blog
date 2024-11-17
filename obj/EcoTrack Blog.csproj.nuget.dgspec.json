@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\EcoTrack Blog.csproj": {}
+    "C:\\EcoTrack-Blog\\EcoTrack Blog.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\EcoTrack Blog.csproj": {
+    "C:\\EcoTrack-Blog\\EcoTrack Blog.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\EcoTrack Blog.csproj",
+        "projectUniqueName": "C:\\EcoTrack-Blog\\EcoTrack Blog.csproj",
         "projectName": "EcoTrack Blog",
-        "projectPath": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\EcoTrack Blog.csproj",
+        "projectPath": "C:\\EcoTrack-Blog\\EcoTrack Blog.csproj",
         "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\obj\\",
+        "outputPath": "C:\\EcoTrack-Blog\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,6 +63,16 @@
               "version": "[7.0.16, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[7.0.16, )"
             },

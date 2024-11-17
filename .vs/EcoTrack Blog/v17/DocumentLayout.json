@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\",
+  "WorkspaceRootPath": "C:\\EcoTrack-Blog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\users\\gustavo\\source\\repos\\ecotrack blog\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\ecotrack blog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:ecotrack blog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\users\\gustavo\\source\\repos\\ecotrack blog\\configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:configuration\\dependencyinjectionconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\users\\gustavo\\source\\repos\\ecotrack blog\\configuration\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\configuration\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:configuration\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\users\\gustavo\\source\\repos\\ecotrack blog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -31,10 +35,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EcoTrack Blog",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\EcoTrack Blog.csproj",
+              "RelativeDocumentMoniker": "EcoTrack Blog.csproj",
+              "ToolTip": "C:\\EcoTrack-Blog\\EcoTrack Blog.csproj",
+              "RelativeToolTip": "EcoTrack Blog.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-17T21:25:09.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AuthorService.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Services\\AuthorService.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Services\\AuthorService.cs",
               "RelativeDocumentMoniker": "Services\\AuthorService.cs",
-              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Services\\AuthorService.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Services\\AuthorService.cs",
               "RelativeToolTip": "Services\\AuthorService.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAQwDgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -43,42 +60,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Program.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Program.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAKIAAAAAAAAAAAAuwLEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T18:51:13.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DependencyInjectionConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Configuration\\DependencyInjectionConfig.cs",
-              "RelativeDocumentMoniker": "Configuration\\DependencyInjectionConfig.cs",
-              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Configuration\\DependencyInjectionConfig.cs",
-              "RelativeToolTip": "Configuration\\DependencyInjectionConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T18:49:58.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T18:51:13.746Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DependencyInjectionConfig.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Configuration\\DependencyInjectionConfig.cs",
+              "RelativeDocumentMoniker": "Configuration\\DependencyInjectionConfig.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Configuration\\DependencyInjectionConfig.cs",
+              "RelativeToolTip": "Configuration\\DependencyInjectionConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T18:49:58.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Configuration\\AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Configuration\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "Configuration\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\Configuration\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Configuration\\AutoMapperProfile.cs",
               "RelativeToolTip": "Configuration\\AutoMapperProfile.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T18:48:45.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T18:48:45.548Z"
             }
           ]
         }

@@ -2771,6 +2771,8 @@
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.16",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 7.0.16",
       "Microsoft.EntityFrameworkCore >= 7.0.16",
+      "Microsoft.EntityFrameworkCore.Design >= 7.0.16",
+      "Microsoft.EntityFrameworkCore.Relational >= 7.0.16",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.16",
       "Oracle.EntityFrameworkCore >= 7.0.21",
       "Swashbuckle.AspNetCore >= 6.5.0",
@@ -2783,11 +2785,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\EcoTrack Blog.csproj",
+      "projectUniqueName": "C:\\EcoTrack-Blog\\EcoTrack Blog.csproj",
       "projectName": "EcoTrack Blog",
-      "projectPath": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\EcoTrack Blog.csproj",
+      "projectPath": "C:\\EcoTrack-Blog\\EcoTrack Blog.csproj",
       "packagesPath": "C:\\Users\\Gustavo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gustavo\\source\\repos\\EcoTrack Blog\\obj\\",
+      "outputPath": "C:\\EcoTrack-Blog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Gustavo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2839,6 +2841,16 @@
             "version": "[7.0.16, )"
           },
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[7.0.16, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[7.0.16, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[7.0.16, )"
           },
