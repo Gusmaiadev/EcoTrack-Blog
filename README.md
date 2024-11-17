@@ -104,7 +104,23 @@ Implementação completa do padrão repository com:
 ### Swagger UI
 A documentação completa da API está disponível através do Swagger UI em:
 ```
-https://localhost:7280/
+https://localhost:7280/swagger
+```
+
+### Endpoint Raiz
+A rota raiz (`/`) fornece um endpoint de boas-vindas que:
+- Confirma que a API está funcionando
+- Mostra a versão atual
+- Direciona para a documentação
+
+```json
+GET /
+Resposta:
+{
+    "message": "EcoTrack Blog API",
+    "version": "1.0",
+    "documentation": "/swagger"
+}
 ```
 
 ### Endpoints Principais
