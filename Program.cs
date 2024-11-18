@@ -159,11 +159,18 @@ app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Redirect root to /home
-app.MapGet("/", context =>
+// Redirecionamento da rota raiz para /home
+app.MapGet("/", async context =>
 {
-    context.Response.Redirect("/home");
-    return Task.CompletedTask;
+    context.Response.Redirect("/home", permanent: false);
+    await Task.CompletedTask;
+});
+
+// Redirecionamento de index.html para /home
+app.MapGet("/index.html", async context =>
+{
+    context.Response.Redirect("/home", permanent: false);
+    await Task.CompletedTask;
 });
 
 // Configure MVC routes
