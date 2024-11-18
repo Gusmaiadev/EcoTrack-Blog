@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b3Z3fz9ccoWXTSqaslxN5TvP4gde1i4NIgalVp3S4Cg=",
+  "Hash": "EefSflQP3MAJMr6NiC9BOyTj3buymjvKZX1D6GT2kyg=",
   "Source": "EcoTrack Blog",
   "BasePath": "_content/EcoTrack Blog",
   "Mode": "Default",
@@ -16,44 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\EcoTrack-Blog\\obj\\Debug\\net8.0\\scopedcss\\bundle\\EcoTrack Blog.styles.css",
-      "SourceId": "EcoTrack Blog",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\EcoTrack-Blog\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/EcoTrack Blog",
-      "RelativePath": "EcoTrack Blog.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\EcoTrack-Blog\\obj\\Debug\\net8.0\\scopedcss\\bundle\\EcoTrack Blog.styles.css"
-    },
-    {
-      "Identity": "C:\\EcoTrack-Blog\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EcoTrack Blog.bundle.scp.css",
-      "SourceId": "EcoTrack Blog",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\EcoTrack-Blog\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/EcoTrack Blog",
-      "RelativePath": "EcoTrack Blog.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\EcoTrack-Blog\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EcoTrack Blog.bundle.scp.css"
-    },
     {
       "Identity": "C:\\EcoTrack-Blog\\wwwroot\\css\\site.css",
       "SourceId": "EcoTrack Blog",

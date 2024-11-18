@@ -152,9 +152,7 @@ C:\EcoTrack-Blog\obj\Debug\net8.0\staticwebassets\msbuild.build.EcoTrack Blog.pr
 C:\EcoTrack-Blog\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.EcoTrack Blog.props
 C:\EcoTrack-Blog\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.EcoTrack Blog.props
 C:\EcoTrack-Blog\obj\Debug\net8.0\staticwebassets.pack.json
-C:\EcoTrack-Blog\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\EcoTrack-Blog\obj\Debug\net8.0\scopedcss\bundle\EcoTrack Blog.styles.css
-C:\EcoTrack-Blog\obj\Debug\net8.0\scopedcss\projectbundle\EcoTrack Blog.bundle.scp.css
 C:\EcoTrack-Blog\obj\Debug\net8.0\EcoTrack.2119A969.Up2Date
 C:\EcoTrack-Blog\obj\Debug\net8.0\EcoTrack Blog.dll
 C:\EcoTrack-Blog\obj\Debug\net8.0\refint\EcoTrack Blog.dll

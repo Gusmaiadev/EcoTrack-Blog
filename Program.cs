@@ -6,29 +6,36 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Text.Json.Serialization;
-using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container
+// Add MVC services with views
 builder.Services.AddControllersWithViews()
-    .AddJsonOptions(options =>
-    {
-        options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
-        options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
-    })
-    .AddNewtonsoftJson(options =>
-    {
-        options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
-        options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
-    });
+   .AddJsonOptions(options =>
+   {
+       options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
+       options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
+   })
+   .AddNewtonsoftJson(options =>
+   {
+       options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+       options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
+   });
+
+// Adicione suporte a Session
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 
 // Configure DbContext for Oracle
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseOracle(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-        options => options.UseOracleSQLCompatibility("11")
-    ));
+   options.UseOracle(
+       builder.Configuration.GetConnectionString("DefaultConnection"),
+       options => options.UseOracleSQLCompatibility("11")
+   ));
 
 // Configure JWT Authentication
 builder.Services.AddAuthentication(x =>
@@ -90,32 +97,27 @@ builder.Services.AddSwaggerGen(c =>
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
-        Description = "JWT Authorization header using the Bearer scheme.\r\n\r\n" +
-                     "Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\n" +
-                     "Example: \"Bearer 12345abcdef\"",
+        Description = "JWT Authorization header using the Bearer scheme.",
         Name = "Authorization",
         In = ParameterLocation.Header,
         Type = SecuritySchemeType.ApiKey,
         Scheme = "Bearer"
     });
 
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement()
-    {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                },
-                Scheme = "oauth2",
-                Name = "Bearer",
-                In = ParameterLocation.Header,
-            },
-            new List<string>()
-        }
-    });
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+   {
+       {
+           new OpenApiSecurityScheme
+           {
+               Reference = new OpenApiReference
+               {
+                   Type = ReferenceType.SecurityScheme,
+                   Id = "Bearer"
+               }
+           },
+           new string[] {}
+       }
+   });
 });
 
 // Add Response Compression
@@ -123,6 +125,9 @@ builder.Services.AddResponseCompression(options =>
 {
     options.EnableForHttps = true;
 });
+
+// Adicionar suporte a sessão distribuída (opcional, mas recomendado para produção)
+builder.Services.AddDistributedMemoryCache();
 
 var app = builder.Build();
 
@@ -133,9 +138,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "EcoTrack Blog API v1");
-        c.RoutePrefix = string.Empty;
-        c.DocExpansion(Swashbuckle.AspNetCore.SwaggerUI.DocExpansion.None);
-        c.DefaultModelsExpandDepth(-1);
     });
 }
 else
@@ -148,20 +150,29 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 
-// Enable CORS
 app.UseCors("AllowAll");
-
-// Add Response Compression Middleware
 app.UseResponseCompression();
 
-// Authentication & Authorization
+// Adicione UseSession antes de UseAuthentication
+app.UseSession();
+
 app.UseAuthentication();
 app.UseAuthorization();
 
+// Redirect root to /home
+app.MapGet("/", context =>
+{
+    context.Response.Redirect("/home");
+    return Task.CompletedTask;
+});
+
 // Configure MVC routes
 app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+   name: "default",
+   pattern: "{controller=Home}/{action=Index}/{id?}");
+
+// Map API controllers
+app.MapControllers();
 
 // Database Migration
 using (var scope = app.Services.CreateScope())

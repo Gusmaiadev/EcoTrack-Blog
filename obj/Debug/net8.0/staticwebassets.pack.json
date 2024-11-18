@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\EcoTrack-Blog\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EcoTrack Blog.bundle.scp.css",
-      "PackagePath": "staticwebassets\\EcoTrack Blog.bundle.scp.css"
-    },
-    {
       "Id": "C:\\EcoTrack-Blog\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

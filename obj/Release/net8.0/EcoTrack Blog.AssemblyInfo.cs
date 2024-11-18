@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoTrack Blog")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4cd1cac4d2dddf866575eedab63b8136956421b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ed6c9aa3306dde939cd5bd4d73ee90ca60b841d")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoTrack Blog")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoTrack Blog")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

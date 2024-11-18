@@ -1,0 +1,152 @@
+﻿@model IEnumerable<EcoTrack.Blog.Models.DTOs.PostDto>
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col">
+            <h2>Meus Posts</h2>
+        </div>
+        <div class="col text-end">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#createPostModal">
+                Novo Post
+            </button>
+        </div>
+    </div>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="row">
+            @foreach (var post in Model)
+            {
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">@post.Title</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Categoria: @post.CategoryName</h6>
+                            <p class="card-text">@(post.Content.Length > 200 ? post.Content.Substring(0, 200) + "..." : post.Content)</p>
+                            <div class="btn-group">
+                                <button class="btn btn-primary btn-sm" onclick="editPost(@post.Id)">Editar</button>
+                                <button class="btn btn-danger btn-sm" onclick="deletePost(@post.Id)">Excluir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info">
+            Você ainda não tem posts publicados.
+        </div>
+    }
+</div>
+
+<!-- Modal para criar/editar post -->
+<div class="modal fade" id="createPostModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Novo Post</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form id="postForm">
+                    <input type="hidden" id="postId" />
+                    <div class="mb-3">
+                        <label for="title" class="form-label">Título</label>
+                        <input type="text" class="form-control" id="title" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="categoryId" class="form-label">Categoria</label>
+                        <select class="form-control" id="categoryId" required>
+                            <!-- Categorias serão carregadas via JavaScript -->
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="content" class="form-label">Conteúdo</label>
+                        <textarea class="form-control" id="content" rows="5" required></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" onclick="savePost()">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        let categories = [];
+
+        // Carregar categorias quando a página carregar
+        $(document).ready(function() {
+            loadCategories();
+        });
+
+        function loadCategories() {
+            $.get('/api/categories', function(data) {
+                categories = data;
+                const select = $('#categoryId');
+                select.empty();
+                categories.forEach(function(category) {
+                    select.append(new Option(category.name, category.id));
+                });
+            });
+        }
+
+        function editPost(postId) {
+            $.get(`/api/posts/${postId}`, function(post) {
+                $('#postId').val(post.id);
+                $('#title').val(post.title);
+                $('#content').val(post.content);
+                $('#categoryId').val(post.categoryId);
+                $('#modalTitle').text('Editar Post');
+                $('#createPostModal').modal('show');
+            });
+        }
+
+        function savePost() {
+            const postData = {
+                id: $('#postId').val(),
+                title: $('#title').val(),
+                content: $('#content').val(),
+                categoryId: $('#categoryId').val()
+            };
+
+            const isEdit = postData.id !== '';
+            const url = isEdit ? `/api/posts/${postData.id}` : '/api/posts';
+            const method = isEdit ? 'PUT' : 'POST';
+
+            $.ajax({
+                url: url,
+                method: method,
+                contentType: 'application/json',
+                data: JSON.stringify(postData),
+                success: function() {
+                    $('#createPostModal').modal('hide');
+                    location.reload();
+                },
+                error: function(xhr) {
+                    alert('Erro ao salvar o post: ' + xhr.responseText);
+                }
+            });
+        }
+
+        function deletePost(postId) {
+            if (confirm('Tem certeza que deseja excluir este post?')) {
+                $.ajax({
+                    url: `/api/posts/${postId}`,
+                    method: 'DELETE',
+                    success: function() {
+                        location.reload();
+                    },
+                    error: function(xhr) {
+                        alert('Erro ao excluir o post: ' + xhr.responseText);
+                    }
+                });
+            }
+        }
+    </script>
+}
