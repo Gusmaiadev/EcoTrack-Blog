@@ -1,0 +1,66 @@
+﻿@model IEnumerable<CategoryDto>
+
+<div class="banner-container">
+    <div class="banner position-relative mb-5 w-100">
+        <img src="/images/banner-sustentabilidade.jpg" class="img-fluid w-100" alt="Banner Sustentabilidade" style="height: 400px; object-fit: cover;">
+        <div class="position-absolute top-50 start-50 translate-middle text-white text-center">
+            <h1>EcoTrack Blog</h1>
+            <p class="lead">Seu guia para um consumo mais consciente</p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <!-- Sobre o Projeto -->
+    <div class="row mb-5">
+        <div class="col-12 text-center">
+            <h2 class="mb-4">Sobre o Projeto</h2>
+            <p class="lead">
+                O EcoTrack Blog é uma iniciativa dedicada a promover práticas sustentáveis
+                e conscientização sobre o consumo responsável de energia em nosso dia a dia.
+                Aqui você encontrará dicas, informações e orientações sobre como tornar sua
+                casa mais eficiente energeticamente.
+            </p>
+        </div>
+    </div>
+
+    <!-- Categorias -->
+    <div class="row mb-5">
+        <div class="col-12 text-center mb-4">
+            <h2>Categorias</h2>
+        </div>
+        @foreach (var category in Model)
+        {
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center category-card rounded-4 h-100">
+                        <div class="card-body">
+                            <div class="category-icon-container">
+                                <img src="/images/categories/@(category.Name.ToLower()).svg" 
+                                     alt="@category.Name" 
+                                     class="category-icon mb-3">
+                            </div>
+                            <h5 class="card-title">@category.Name</h5>
+                        </div>
+                    </div>
+                </div>
+        }
+    </div>
+
+    <!-- Seção Adicional sobre o Projeto -->
+    <div class="row mb-5">
+        <div class="col-12">
+            <div class="bg-light p-4 rounded-3">
+                <h2 class="text-center mb-4">Nossa Missão</h2>
+                <p class="lead text-center">
+                    Bem-vindo ao EcoTrack Blog, seu portal dedicado à transformação sustentável do consumo de energia. 
+                    Nossa missão é capacitar você a fazer escolhas mais inteligentes no uso dos seus eletrodomésticos, 
+                    reduzindo não apenas sua conta de energia, mas também sua pegada de carbono. Através de artigos 
+                    especializados em cada categoria, oferecemos orientações práticas sobre como otimizar o consumo 
+                    energético em sua casa, promover a adoção de energias renováveis e contribuir para um futuro mais 
+                    sustentável. Junte-se a nós nessa jornada de conscientização e transformação, onde cada pequena 
+                    mudança em seus hábitos de consumo faz uma grande diferença para nosso planeta.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

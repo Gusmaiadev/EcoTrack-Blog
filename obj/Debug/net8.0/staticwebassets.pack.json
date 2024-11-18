@@ -13,6 +13,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\banner-sustentabilidade.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-sustentabilidade.jpg"
+    },
+    {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\Chuveiro.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\Chuveiro.svg"
+    },
+    {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\Fogão.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\Fogão.svg"
+    },
+    {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\Geladeira.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\Geladeira.svg"
+    },
+    {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\Luz.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\Luz.svg"
+    },
+    {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\Microondas.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\Microondas.svg"
+    },
+    {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\Televisão.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\Televisão.svg"
+    },
+    {
       "Id": "C:\\EcoTrack-Blog\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

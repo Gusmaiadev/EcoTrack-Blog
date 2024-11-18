@@ -6,11 +6,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Text.Json.Serialization;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
-builder.Services.AddControllers()
+builder.Services.AddControllersWithViews()
     .AddJsonOptions(options =>
     {
         options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
@@ -21,8 +22,6 @@ builder.Services.AddControllers()
         options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
         options.SerializerSettings.NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore;
     });
-
-builder.Services.AddEndpointsApiExplorer();
 
 // Configure DbContext for Oracle
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -125,9 +124,6 @@ builder.Services.AddResponseCompression(options =>
     options.EnableForHttps = true;
 });
 
-// Add Rate Limiting
-builder.Services.AddMemoryCache();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline
@@ -137,18 +133,17 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "EcoTrack Blog API v1");
-        c.RoutePrefix = string.Empty; // Para servir a UI do Swagger na raiz
+        c.RoutePrefix = string.Empty;
         c.DocExpansion(Swashbuckle.AspNetCore.SwaggerUI.DocExpansion.None);
-        c.DefaultModelsExpandDepth(-1); // Oculta os schemas por padrão
+        c.DefaultModelsExpandDepth(-1);
     });
 }
 else
 {
-    app.UseExceptionHandler("/Error");
+    app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
 
-// Middleware Pipeline
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
@@ -163,16 +158,10 @@ app.UseResponseCompression();
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Configure endpoints
-app.MapControllers();
-
-// Welcome endpoint
-app.MapGet("/", () => Results.Ok(new
-{
-    message = "EcoTrack Blog API",
-    version = "1.0",
-    documentation = "/swagger"
-}));
+// Configure MVC routes
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 // Database Migration
 using (var scope = app.Services.CreateScope())

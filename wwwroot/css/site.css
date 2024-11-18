@@ -1,22 +1,57 @@
-html {
-  font-size: 14px;
+/* Estilos existentes */
+.banner-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.category-card {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    .category-card:hover {
+        transform: translateY(-5px);
+    }
+
+.category-icon-container {
+    background-color: #FF5733;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+.category-icon {
+    width: 64px;
+    height: 64px;
+    transition: transform 0.3s ease-in-out;
 }
 
+.category-card:hover .category-icon {
+    transform: scale(1.1);
+}
+
+/* Atualização do estilo do footer */
 body {
-  margin-bottom: 60px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    position: static; /* Removido position: absolute */
+    margin-top: auto;
 }
