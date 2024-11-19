@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\EcoTrack-Blog\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\views\\author\\posts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -15,8 +31,8 @@
       "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:views\\author\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "C:\\EcoTrack-Blog\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthorController.cs",
-              "ToolTip": "C:\\EcoTrack-Blog\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "Controllers\\AuthorController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAQwDgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T22:01:38.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Posts.cshtml",
-              "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\Author\\Posts.cshtml",
-              "RelativeDocumentMoniker": "Views\\Author\\Posts.cshtml",
-              "ToolTip": "C:\\EcoTrack-Blog\\Views\\Author\\Posts.cshtml",
-              "RelativeToolTip": "Views\\Author\\Posts.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\EcoTrack-Blog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAgwOIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T21:59:52.556Z",
+              "WhenOpened": "2024-11-19T01:13:54.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\Author\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Author\\Login.cshtml",
-              "ToolTip": "C:\\EcoTrack-Blog\\Views\\Author\\Login.cshtml",
-              "RelativeToolTip": "Views\\Author\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T21:58:15.861Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\EcoTrack-Blog\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAABcAAAAAAAAAAAAcwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-19T01:11:29.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcBAAAAAAAAAAA3wB0BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:10:02.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\EcoTrack-Blog\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\EcoTrack-Blog\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwBoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-18T21:01:41.642Z"
+              "WhenOpened": "2024-11-19T00:56:16.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthorController.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "Controllers\\AuthorController.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAAAgwO8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T00:53:39.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Posts.cshtml",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\Author\\Posts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Author\\Posts.cshtml",
+              "ToolTip": "C:\\EcoTrack-Blog\\Views\\Author\\Posts.cshtml",
+              "RelativeToolTip": "Views\\Author\\Posts.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAgwJcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T00:51:27.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\Author\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Author\\Login.cshtml",
+              "ToolTip": "C:\\EcoTrack-Blog\\Views\\Author\\Login.cshtml",
+              "RelativeToolTip": "Views\\Author\\Login.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T00:49:50.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\EcoTrack-Blog\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwDIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:54:36.843Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,115 +1,226 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EcoTrack Blog - @ViewData["Title"]</title>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>EcoTrack Blog - @ViewData["Title"]</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="~/css/site.css" />
+   <!-- Favicon -->
+   <link rel="icon" type="image/x-icon" href="~/favicon.ico">
+
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Font Awesome -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+   <!-- Custom CSS -->
+   <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+   <!-- SweetAlert2 CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="/home">
-                    <i class="fas fa-leaf me-2"></i>EcoTrack Blog
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="/home">
-                                <i class="fas fa-home me-1"></i>Home
-                            </a>
-                        </li>
+   <header>
+       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+           <div class="container">
+               <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                   <i class="fas fa-leaf me-2"></i>EcoTrack Blog
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                   <ul class="navbar-nav">
+                       <li class="nav-item">
+                           <a class="nav-link @(ViewContext.RouteData.Values["Controller"].ToString() == "Home" ? "active" : "")" 
+                              asp-controller="Home" asp-action="Index">
+                               <i class="fas fa-home me-1"></i>Home
+                           </a>
+                       </li>
                         @if (User.Identity.IsAuthenticated)
                         {
-                            <li class="nav-item">
-                                <a class="nav-link" href="@Url.Action("Posts", "Author")">
-                                    <i class="fas fa-newspaper me-1"></i>Meus Posts
-                                </a>
-                            </li>
+                               <li class="nav-item">
+                                   <a class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Posts" ? "active" : "")" 
+                                      asp-controller="Author" asp-action="Posts">
+                                       <i class="fas fa-newspaper me-1"></i>Meus Posts
+                                   </a>
+                               </li>
                         }
-                    </ul>
-                    <ul class="navbar-nav">
+                   </ul>
+                   <ul class="navbar-nav">
                         @if (User.Identity.IsAuthenticated)
                         {
-                            <li class="nav-item user-profile">
-                                <span class="user-name">
-                                    <i class="fas fa-user me-1"></i>@User.Identity.Name
-                                </span>
-                                <a class="nav-link btn-logout" href="@Url.Action("Logout", "Author")">
-                                    <i class="fas fa-sign-out-alt me-1"></i>Sair
-                                </a>
-                            </li>
+                               <li class="nav-item dropdown">
+                                   <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" 
+                                      data-bs-toggle="dropdown" aria-expanded="false">
+                                       <i class="fas fa-user me-1"></i>@User.Identity.Name
+                                   </a>
+                                   <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                       <li>
+                                           <a class="dropdown-item" asp-controller="Author" asp-action="Profile">
+                                               <i class="fas fa-user-circle me-1"></i>Perfil
+                                           </a>
+                                       </li>
+                                       <li><hr class="dropdown-divider"></li>
+                                       <li>
+                                           <form asp-controller="Author" asp-action="Logout" method="post" id="logoutForm">
+                                               <button type="submit" class="dropdown-item text-danger">
+                                                   <i class="fas fa-sign-out-alt me-1"></i>Sair
+                                               </button>
+                                           </form>
+                                       </li>
+                                   </ul>
+                               </li>
                         }
                         else
                         {
-                            <li class="nav-item">
-                                <a class="nav-link" href="@Url.Action("Login", "Author")">
-                                    <i class="fas fa-sign-in-alt me-1"></i>Login
-                                </a>
-                            </li>
+                               <li class="nav-item">
+                                   <a class="nav-link" asp-controller="Author" asp-action="Login">
+                                       <i class="fas fa-sign-in-alt me-1"></i>Login
+                                   </a>
+                               </li>
+                               <li class="nav-item">
+                                   <a class="nav-link" asp-controller="Author" asp-action="Register">
+                                       <i class="fas fa-user-plus me-1"></i>Cadastrar
+                                   </a>
+                               </li>
                         }
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+                   </ul>
+               </div>
+           </div>
+       </nav>
+   </header>
 
-    <div class="main-content">
-        <div class="container">
-            @RenderBody()
-        </div>
-    </div>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-0">&copy; @DateTime.Now.Year - EcoTrack Blog</p>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-    <!-- Script para mensagens de alerta personalizadas -->
-    <script>
-        function showAlert(title, message, type) {
-            Swal.fire({
-                title: title,
-                text: message,
-                icon: type,
-                confirmButtonText: 'OK',
-                customClass: {
-                    confirmButton: 'btn btn-primary'
-                }
-            });
+   <main role="main" class="container mt-4">
+        @if (TempData["SuccessMessage"] != null)
+        {
+               <div class="alert alert-success alert-dismissible fade show" role="alert">
+                @TempData["SuccessMessage"]
+                   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+               </div>
         }
 
-        // Tratamento de erros AJAX global
-        $(document).ajaxError(function (event, jqxhr, settings, thrownError) {
-            showAlert('Erro', 'Ocorreu um erro ao processar sua solicitação.', 'error');
-        });
-    </script>
+        @if (TempData["ErrorMessage"] != null)
+        {
+               <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                @TempData["ErrorMessage"]
+                   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+               </div>
+        }
+
+        @RenderBody()
+   </main>
+
+   <footer class="footer bg-dark text-white mt-5">
+       <div class="container py-4">
+           <div class="row">
+               <div class="col-md-6 text-center text-md-start">
+                   <h5>EcoTrack Blog</h5>
+                   <p class="mb-0">Seu guia para um consumo mais consciente</p>
+                   <p>&copy; @DateTime.Now.Year - Todos os direitos reservados</p>
+               </div>
+               <div class="col-md-6 text-center text-md-end">
+                   <h5>Redes Sociais</h5>
+                   <div class="social-links">
+                       <a href="#" class="text-white me-3" title="Facebook"><i class="fab fa-facebook fa-lg"></i></a>
+                       <a href="#" class="text-white me-3" title="Twitter"><i class="fab fa-twitter fa-lg"></i></a>
+                       <a href="#" class="text-white me-3" title="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
+                       <a href="#" class="text-white" title="LinkedIn"><i class="fab fa-linkedin fa-lg"></i></a>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </footer>
+
+   <!-- Scripts -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- Script para tratamento de AJAX e autenticação -->
+   <script>
+       // Configuração global do AJAX
+       $.ajaxSetup({
+           headers: {
+               'Accept': 'application/json',
+               'Content-Type': 'application/json'
+           },
+           error: function (xhr, status, error) {
+               if (xhr.status === 401) {
+                   Swal.fire({
+                       title: 'Sessão Expirada',
+                       text: 'Sua sessão expirou. Por favor, faça login novamente.',
+                       icon: 'warning',
+                       confirmButtonText: 'OK'
+                   }).then(() => {
+                       window.location.href = '@Url.Action("Login", "Author")';
+                   });
+               }
+               else if (xhr.status === 403) {
+                   Swal.fire({
+                       title: 'Acesso Negado',
+                       text: 'Você não tem permissão para realizar esta ação.',
+                       icon: 'error',
+                       confirmButtonText: 'OK'
+                   });
+               }
+               else {
+                   Swal.fire({
+                       title: 'Erro',
+                       text: 'Ocorreu um erro ao processar sua solicitação.',
+                       icon: 'error',
+                       confirmButtonText: 'OK'
+                   });
+               }
+           }
+       });
+
+       // Função para mostrar alertas
+       function showAlert(title, message, type) {
+           Swal.fire({
+               title: title,
+               text: message,
+               icon: type,
+               confirmButtonText: 'OK',
+               customClass: {
+                   confirmButton: 'btn btn-primary'
+               }
+           });
+       }
+
+       // Interceptar formulário de logout
+       $('#logoutForm').on('submit', function(e) {
+           e.preventDefault();
+           Swal.fire({
+               title: 'Confirmar Saída',
+               text: 'Tem certeza que deseja sair?',
+               icon: 'question',
+               showCancelButton: true,
+               confirmButtonText: 'Sim',
+               cancelButtonText: 'Não'
+           }).then((result) => {
+               if (result.isConfirmed) {
+                   this.submit();
+               }
+           });
+       });
+
+       // Função para confirmar exclusão
+       function confirmDelete(message, callback) {
+           Swal.fire({
+               title: 'Confirmar Exclusão',
+               text: message,
+               icon: 'warning',
+               showCancelButton: true,
+               confirmButtonText: 'Sim, excluir',
+               cancelButtonText: 'Cancelar',
+               confirmButtonColor: '#dc3545'
+           }).then((result) => {
+               if (result.isConfirmed) {
+                   callback();
+               }
+           });
+       }
+   </script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
