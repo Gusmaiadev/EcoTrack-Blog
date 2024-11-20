@@ -3,24 +3,80 @@
   "WorkspaceRootPath": "C:\\EcoTrack-Blog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\views\\home\\categoryposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:views\\home\\categoryposts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\helpers\\categoryimagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:helpers\\categoryimagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\data\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:data\\repositories\\postrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\ecotrack blog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:ecotrack blog.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\configuration\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:configuration\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:services\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\views\\author\\posts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -29,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\views\\author\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:views\\author\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|c:\\ecotrack-blog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B2A81C89-C755-4B7C-8300-1621A87F9483}|EcoTrack Blog.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,24 +94,135 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EcoTrack Blog.csproj",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\EcoTrack Blog.csproj",
+              "RelativeDocumentMoniker": "EcoTrack Blog.csproj",
+              "ToolTip": "C:\\EcoTrack-Blog\\EcoTrack Blog.csproj",
+              "RelativeToolTip": "EcoTrack Blog.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAkwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-19T23:10:53.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PostRepository.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Data\\Repositories\\PostRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repositories\\PostRepository.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Data\\Repositories\\PostRepository.cs",
+              "RelativeToolTip": "Data\\Repositories\\PostRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T23:00:34.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Configuration\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Configuration\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Configuration\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Configuration\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA3wBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T22:58:51.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryPosts.cshtml",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\Home\\CategoryPosts.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CategoryPosts.cshtml",
+              "ToolTip": "C:\\EcoTrack-Blog\\Views\\Home\\CategoryPosts.cshtml",
+              "RelativeToolTip": "Views\\Home\\CategoryPosts.cshtml",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAAI0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T22:49:19.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\EcoTrack-Blog\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-19T22:43:45.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\EcoTrack-Blog\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T23:54:36.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\EcoTrack-Blog\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAgwOIAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-19T01:13:54.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "CategoryImageHelper.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Helpers\\CategoryImageHelper.cs",
+              "RelativeDocumentMoniker": "Helpers\\CategoryImageHelper.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Helpers\\CategoryImageHelper.cs",
+              "RelativeToolTip": "Helpers\\CategoryImageHelper.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T23:11:49.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\EcoTrack-Blog\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T23:54:49.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T22:33:38.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\EcoTrack-Blog\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -67,12 +230,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAABcAAAAAAAAAAAAcwC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T01:11:29.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T01:11:29.076Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\EcoTrack-Blog\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -80,38 +242,95 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAcBAAAAAAAAAAA3wB0BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T01:10:02.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T01:10:02.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostsController.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "Controllers\\PostsController.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAYwGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T22:18:47.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T22:13:23.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Services\\CategoryService.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Services\\CategoryService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T22:25:30.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AuthorService.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Services\\AuthorService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthorService.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Services\\AuthorService.cs",
+              "RelativeToolTip": "Services\\AuthorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T22:25:26.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "C:\\EcoTrack-Blog\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "Services\\PostService.cs",
+              "ToolTip": "C:\\EcoTrack-Blog\\Services\\PostService.cs",
+              "RelativeToolTip": "Services\\PostService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAYwFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T22:24:05.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\EcoTrack-Blog\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\EcoTrack-Blog\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAABIAAAAAAAAAAAAcwBoAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwCgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T00:56:16.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T00:56:16.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 18,
               "Title": "AuthorController.cs",
               "DocumentMoniker": "C:\\EcoTrack-Blog\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthorController.cs",
               "ToolTip": "C:\\EcoTrack-Blog\\Controllers\\AuthorController.cs",
               "RelativeToolTip": "Controllers\\AuthorController.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAgwO8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAANoAAAAAAAAAAAAYwO8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T00:53:39.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T00:53:39.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
               "Title": "Posts.cshtml",
               "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\Author\\Posts.cshtml",
               "RelativeDocumentMoniker": "Views\\Author\\Posts.cshtml",
@@ -119,12 +338,11 @@
               "RelativeToolTip": "Views\\Author\\Posts.cshtml",
               "ViewState": "AgIAAIEAAAAAAAAAAAAgwJcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T00:51:27.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T00:51:27.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 20,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\Author\\Login.cshtml",
               "RelativeDocumentMoniker": "Views\\Author\\Login.cshtml",
@@ -132,21 +350,7 @@
               "RelativeToolTip": "Views\\Author\\Login.cshtml",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwCMAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-19T00:49:50.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\EcoTrack-Blog\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\EcoTrack-Blog\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwDIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-18T23:54:36.843Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T00:49:50.81Z"
             }
           ]
         }

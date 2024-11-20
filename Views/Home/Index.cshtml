@@ -33,14 +33,21 @@
             @foreach (var category in Model)
             {
                 <div class="col">
-                    <div class="category-card text-center">
-                        <div class="category-icon-container">
-                            <img src="/images/categories/@(category.Name.ToLower()).svg"
-                                 alt="@category.Name"
-                                 class="category-icon">
+                    <a href="@Url.Action("CategoryPosts", "Home", new { id = category.Id })"
+                       class="text-decoration-none">
+                        <div class="category-card text-center">
+                            <div class="category-icon-container">
+                                <img src="/images/categories/@(category.Name.ToLower()).svg"
+                                     alt="@category.Name"
+                                     class="category-icon"
+                                     onerror="this.src='/images/categories/default.svg'">
+                            </div>
+                            <h5>@category.Name</h5>
+                            <p class="text-muted">
+                                @GetCategoryDescription(category.Name)
+                            </p>
                         </div>
-                        <h5 class="mt-3">@category.Name</h5>
-                    </div>
+                    </a>
                 </div>
             }
         </div>
@@ -57,10 +64,30 @@
                     reduzindo não apenas sua conta de energia, mas também sua pegada de carbono. Através de artigos
                     especializados em cada categoria, oferecemos orientações práticas sobre como otimizar o consumo
                     energético em sua casa, promover a adoção de energias renováveis e contribuir para um futuro mais
-                    sustentável. Junte-se a nós nessa jornada de conscientização e transformação, onde cada pequena
-                    mudança em seus hábitos de consumo faz uma grande diferença para nosso planeta.
+                    sustentável.
                 </p>
             </div>
         </div>
     </div>
 </div>
+
+@functions {
+    private string GetCategoryDescription(string categoryName)
+    {
+        var descriptions = new Dictionary<string, string>
+        {
+            { "Geladeira", "Dicas para otimizar o uso e reduzir o consumo de energia da sua geladeira." },
+            { "Ar Condicionado", "Aprenda a usar seu ar condicionado de forma eficiente e econômica." },
+            { "Máquina de Lavar", "Estratégias para economizar energia e água nas suas lavagens." },
+            { "Microondas", "Use seu microondas de forma inteligente e econômica." },
+            { "Fogão", "Dicas para cozinhar de forma mais eficiente e sustentável." },
+            { "Chuveiro Elétrico", "Aprenda a economizar energia sem abrir mão do conforto." },
+            { "Iluminação", "Guia completo sobre iluminação eficiente para sua casa." },
+            { "TV", "Como reduzir o consumo de energia dos seus aparelhos de TV." },
+            { "Computador", "Dicas para um uso mais eficiente do seu computador." }
+        };
+
+        return descriptions.GetValueOrDefault(categoryName,
+            "Descubra dicas e informações sobre uso consciente deste eletrodoméstico.");
+    }
+}

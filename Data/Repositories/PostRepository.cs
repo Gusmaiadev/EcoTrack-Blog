@@ -9,6 +9,15 @@ namespace EcoTrack.Blog.Data.Repositories
     {
         public PostRepository(ApplicationDbContext context) : base(context) { }
 
+        // Override do método GetByIdAsync para incluir Author e Category
+        public override async Task<Post> GetByIdAsync(int id)
+        {
+            return await _dbSet
+                .Include(p => p.Author)
+                .Include(p => p.Category)
+                .FirstOrDefaultAsync(p => p.Id == id);
+        }
+
         public override async Task<IEnumerable<Post>> GetAllAsync()
         {
             return await _dbSet

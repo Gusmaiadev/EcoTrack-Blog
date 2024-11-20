@@ -37,6 +37,34 @@
       "PackagePath": "staticwebassets\\images\\categories\\Televisão.svg"
     },
     {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\post-chuveiro.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\post-chuveiro.jpg"
+    },
+    {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\post-default.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\post-default.jpg"
+    },
+    {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\post-fogao.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\post-fogao.jpg"
+    },
+    {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\post-geladeira.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\post-geladeira.jpg"
+    },
+    {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\post-lampada.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\post-lampada.jpg"
+    },
+    {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\post-microondas.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\post-microondas.jpg"
+    },
+    {
+      "Id": "C:\\EcoTrack-Blog\\wwwroot\\images\\categories\\post-tv.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\post-tv.jpg"
+    },
+    {
       "Id": "C:\\EcoTrack-Blog\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

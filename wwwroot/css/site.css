@@ -40,16 +40,19 @@ main {
         object-fit: cover;
     }
 
-
-
 /* Estilos das categorias com elipse laranja fixa */
 .category-card {
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
-    border: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: transparent;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: white;
 }
+
+    .category-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
 
 .category-icon-container {
     background-color: #FF5733; /* Laranja fixo */
@@ -75,6 +78,58 @@ main {
 .category-card h5 {
     margin-top: 1rem;
     color: #333;
+}
+
+/* Estilos para os cards de posts */
+.post-card {
+    padding: 0;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+    .post-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+.post-image {
+    height: 140px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.post-card .card-body {
+    padding: 1.25rem;
+}
+
+.post-card .card-title {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.post-card .card-subtitle {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.75rem;
+}
+
+.post-card .card-text {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.post-card .card-footer {
+    background: transparent;
+    border-top: none;
+    padding: 0 1.25rem 1.25rem 1.25rem;
 }
 
 /* Navbar Styles */
@@ -189,10 +244,19 @@ main {
     animation: spin 1s ease-in-out infinite;
 }
 
-@keyframes spin {
-    to {
-        transform: rotate(360deg);
-    }
+.breadcrumb {
+    background-color: #f8f9fa;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+}
+
+/* Estilos para o modal de post */
+#postModal .modal-body img {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1rem;
 }
 
 /* Form Validation Styles */
@@ -206,4 +270,41 @@ main {
 
 .invalid-feedback {
     color: #dc3545;
-    font-size: 0
+    font-size: 0.875em;
+}
+
+/* Animações */
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .banner {
+        height: 300px;
+    }
+
+    .post-image {
+        height: 120px;
+    }
+
+    .post-card .card-title {
+        font-size: 1rem;
+    }
+
+    .post-card .card-text {
+        font-size: 0.9rem;
+    }
+
+    .category-icon-container {
+        width: 120px;
+        height: 120px;
+    }
+
+    .category-icon {
+        width: 60px;
+        height: 60px;
+    }
+}
