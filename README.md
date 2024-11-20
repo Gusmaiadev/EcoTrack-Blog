@@ -1,210 +1,139 @@
-# EcoTrack Blog API 🌱
+# EcoTrack Blog 🌱
 
 ## 💡 Visão Geral
-O EcoTrack Blog é parte de um ecossistema maior voltado para a sustentabilidade e eficiência energética. Integrado ao nosso aplicativo Android, o blog serve como uma plataforma educativa essencial para conscientizar e orientar usuários sobre economia de energia através do uso consciente de eletrodomésticos.
+O EcoTrack Blog é uma plataforma web integrada com aplicativo Android, focada em promover sustentabilidade e eficiência energética através de conteúdo educativo sobre uso consciente de eletrodomésticos.
 
-### Objetivo Principal
-Nosso objetivo é promover a redução do consumo energético residencial e, consequentemente, diminuir a emissão de CO2, através de:
-- Dicas práticas de economia de energia
-- Guias específicos por tipo de eletrodoméstico
-- Informações sobre impacto ambiental
-- Estratégias de uso eficiente de aparelhos domésticos
+## 🎯 Objetivos
+- Redução do consumo energético residencial
+- Diminuição da emissão de CO2
+- Educação sobre uso eficiente de eletrodomésticos
+- Integração com aplicativo móvel de monitoramento
 
-### Integração com App Android
-- Complementa as funcionalidades do aplicativo móvel
-- Fornece conteúdo detalhado e atualizado
-- Permite que usuários aprofundem seu conhecimento
-- Cria uma comunidade engajada em sustentabilidade
+## 🚀 Tecnologias
 
-### Categorias de Conteúdo
-- Refrigeradores e Freezers
-- Máquinas de Lavar e Secar
-- Ar Condicionado e Climatização
-- Iluminação
-- Aparelhos de Cozinha
-- Eletrônicos e Entretenimento
-- Aquecedores de Água
-- Dicas Gerais de Economia
+### Backend
+- ASP.NET Core 7.0 MVC
+- Entity Framework Core
+- Oracle Database
+- AutoMapper
+- JWT Authentication
+- BCrypt.NET
 
-## 🚀 Tecnologias Utilizadas
-
-- **.NET Core 7.0**
-- **Entity Framework Core**
-- **Oracle Database**
-- **JWT (JSON Web Tokens)**
-- **AutoMapper**
-- **Swagger/OpenAPI**
-- **BCrypt.NET**
+### Frontend
+- Razor Views
+- Bootstrap 5
+- jQuery
+- SweetAlert2
+- Font Awesome
 
 ## 📁 Estrutura do Projeto
 
 ```
 EcoTrack.Blog/
-├── Configuration/           # Configurações da aplicação
-├── Controllers/            # Controllers da API
-├── Data/                   # Camada de acesso a dados
-│   ├── Context/           # Contexto do EF Core
-│   └── Repositories/      # Implementação dos repositories
-├── Models/                # Classes de modelo
-│   ├── DTOs/             # Data Transfer Objects
-│   └── Entities/         # Entidades do banco de dados
-├── Services/              # Camada de serviços
-└── Migrations/            # Migrações do banco de dados
+├── Configuration/           # Configurações (AutoMapper, DI, JWT)
+├── Controllers/            # Controllers MVC e API
+├── Data/                   # Acesso a dados
+│   ├── Context/           # DbContext
+│   └── Repositories/      # Repositories
+├── Helpers/               # Classes auxiliares
+├── Models/                # Models
+│   ├── DTOs/             # DTOs
+│   └── Entities/         # Entidades
+├── Services/              # Serviços
+├── Views/                 # Views Razor
+│   ├── Author/           # Views de autor
+│   ├── Home/             # Views da home
+│   └── Shared/           # Layouts e partials
+└── wwwroot/              # Arquivos estáticos
+    ├── css/              # Estilos
+    ├── js/               # Scripts
+    └── images/           # Imagens
 ```
 
-## 🔑 Principais Funcionalidades
+## 🔑 Funcionalidades
 
-### Autores
-- Registro de novos autores
-- Autenticação via JWT
-- Gerenciamento de perfil
+### Sistema de Blog
+- Visualização de posts por categoria
+- Interface responsiva
+- Modal de leitura de posts
+- Gerenciamento de conteúdo
 
-### Categorias
-- CRUD completo de categorias
-- Validação de nomes únicos
-- Associação com posts
+### Área Administrativa
+- Login de autores
+- CRUD de posts
+- Gestão de categorias
+- Dashboard de autor
+
+### Categorias de Conteúdo
+- Geladeira
+- Ar Condicionado
+- Máquina de Lavar
+- Microondas
+- Fogão
+- Chuveiro Elétrico
+- TV
+- Iluminação
+
+## 💻 Interface
+
+### Home
+- Banner principal
+- Cards de categorias
+- Seção sobre o projeto
+- Área de benefícios
 
 ### Posts
-- Criação e edição de posts
-- Filtros por categoria e autor
-- Controle de acesso baseado no autor
+- Cards com imagens
+- Preview do conteúdo
+- Modal de leitura completa
+- Navegação por categoria
 
-## 🏗️ Arquitetura
-
-### Camada de Entidades
-- **Author**: Gerencia informações dos autores do blog
-- **Category**: Organiza posts em categorias
-- **Post**: Armazena o conteúdo dos artigos
-
-### Padrão Repository
-Implementação completa do padrão repository com:
-- `IBaseRepository<T>`: Interface base genérica
-- Repositories específicos para cada entidade
-- Unit of Work implícito via DbContext
-
-### Camada de Serviços
-- Lógica de negócios separada dos controllers
-- Validações e regras de negócio
-- Mapeamento entre DTOs e entidades
+### Área do Autor
+- Login seguro
+- Gerenciamento de posts
+- Editor de conteúdo
+- Logout
 
 ## 🔒 Segurança
+- Autenticação JWT
+- Cookies seguros
+- Hash de senhas BCrypt
+- Proteção CSRF
+- Validação de formulários
 
-### Autenticação
-- JWT (JSON Web Tokens)
-- Senhas hash com BCrypt
-- Tokens com expiração configurável
+## ⚙️ Instalação
 
-### Autorização
-- Endpoints protegidos por [Authorize]
-- Validação de propriedade de recursos
-- CORS configurado
-
-## 📝 Documentação da API
-
-### Swagger UI
-A documentação completa da API está disponível através do Swagger UI em:
-```
-https://localhost:7280/swagger
-```
-
-### Endpoint Raiz
-A rota raiz (`/`) fornece um endpoint de boas-vindas que:
-- Confirma que a API está funcionando
-- Mostra a versão atual
-- Direciona para a documentação
-
-```json
-GET /
-Resposta:
-{
-    "message": "EcoTrack Blog API",
-    "version": "1.0",
-    "documentation": "/swagger"
-}
-```
-
-### Endpoints Principais
-
-#### Autores
-```
-POST /api/authors/register    # Registro de autor
-POST /api/authors/login      # Login de autor
-GET  /api/authors/{id}       # Detalhes do autor
-```
-
-#### Categorias
-```
-GET    /api/categories       # Lista todas categorias
-POST   /api/categories      # Cria nova categoria
-PUT    /api/categories/{id} # Atualiza categoria
-DELETE /api/categories/{id} # Remove categoria
-```
-
-#### Posts
-```
-GET    /api/posts           # Lista todos posts
-GET    /api/posts/{id}      # Detalhes do post
-POST   /api/posts          # Cria novo post
-PUT    /api/posts/{id}     # Atualiza post
-DELETE /api/posts/{id}     # Remove post
-```
-
-## ⚙️ Configuração e Instalação
-
-### Pré-requisitos
-- .NET Core 7.0 SDK
-- Oracle Database
-- Visual Studio 2022 ou VS Code
-
-### Configuração do Banco de Dados
-1. Atualize a string de conexão em `appsettings.json`
-2. Execute as migrações:
+1. Clone o repositório
+2. Configure a string de conexão em `appsettings.json`
+3. Execute as migrations:
 ```bash
 dotnet ef database update
 ```
-
-### Executando o Projeto
+4. Execute o projeto:
 ```bash
-dotnet restore
 dotnet run
 ```
 
-## 🔧 Configurações Personalizáveis
+## 📝 Acessos
 
-O projeto permite configurar:
-- Tempo de expiração do JWT
-- Origens CORS permitidas
-- Configurações de banco de dados
-- Níveis de log
+### Usuário 1
+- E-mail: gustavoblog@gmail.com
+- Senha: gustavoMaia
 
-Através do arquivo `appsettings.json`.
+### Usuário 2
+- E-mail: caioblog@gmail.com  
+- Senha: caioBlog
 
-## 🧪 Testes
+## 👥 Integrantes
 
-O projeto está estruturado para facilitar testes com:
-- Injeção de dependência
-- Interfaces bem definidas
-- Separação de responsabilidades
+- Gustavo Maia (RM: 553270)
+- Kauã Almeida (RM: 552618) 
+- Rafael Vida (RM: 553721)
 
 ## 📈 Melhorias Futuras
-
-- [ ] Implementação de cache
-- [ ] Sistema de comentários
-- [ ] Upload de imagens
-- [ ] Tags para posts
-- [ ] Sistema de newsletter
-- [ ] Integração com métricas de economia de energia
-- [ ] Dashboard de impacto ambiental
-- [ ] Calculadora de economia de energia
-- [ ] Gamificação para engajamento dos usuários
-- [ ] Sistema de recomendação personalizada
-
-## 🌍 Impacto Ambiental
-
-O EcoTrack Blog contribui para:
-- Redução do consumo de energia elétrica
-- Diminuição da emissão de CO2
-- Conscientização ambiental
-- Promoção de hábitos sustentáveis
-- Educação sobre eficiência energética
-
+- Sistema de comentários
+- Upload de imagens
+- Newsletter
+- Integração com métricas
+- Dashboard de impacto ambiental
+- Sistema de recomendação
